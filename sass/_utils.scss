@@ -1,0 +1,107 @@
+/**
+*
+* Utils
+*
+**/
+
+/*==========  VARIABLES  ==========*/
+
+// Defining breakpoints
+$medium: 620px !default;
+$wide: 800px !default;
+$huge: 1200px !default;
+
+// Breakpoints tablet
+$tablet-portrait: 768px !default;
+$tablet-landscape: 1024px !default;
+
+// Defining grid sizes
+$mediumColCount: 3 !default;
+$mediumColWidth: 30.3% !default;
+$mediumGutterWidth: 20px !default;
+$wideColCount: 4 !default;
+$wideColWidth: 22.2% !default;
+$wideGutterWidth: 20px !default;
+
+// Defining font sizes
+$fontSmall: 0.813em !default;
+$fontBase: 1em  !default;
+$h3: 1.125em !default;
+$h2: 1.750em !default;
+$h1: 2.250em !default;
+
+// Defining baseline line height
+$lineHeight: 1.625em !default;
+
+// Defining animation easings
+$animationEasing: cubic-bezier(0.455, 0.030, 0.515, 0.955) !default;
+
+/*==========  MIXINS  ==========*/
+
+@mixin media-query($media-query) {
+  @if $media-query == small {
+    @media only screen and (max-width: $medium - 1) { @content; }
+  }
+
+  @if $media-query == medium {
+    @media only screen and (min-width: $tablet-landscape + 1) and (max-width : $huge) { @content; }
+  }
+
+  @if $media-query == tablet-portrait {
+    @media only screen and (min-width : $medium + 1) and (max-width : $tablet-portrait) { @content; }
+  }
+
+  @if $media-query == tablet-portrait-and-smaller {
+    @media only screen and (max-width : $tablet-portrait) { @content; }
+  }
+
+  @if $media-query == tablet-landscape {
+    @media only screen and (min-width : $tablet-portrait + 1) and (max-width : $tablet-landscape) { @content; }
+  }
+
+  @if $media-query == huge {
+    @media only screen and (min-width : $huge) { @content; }
+  }  
+}
+
+//Custom mixins for RAE
+@mixin fixed-gradient($color1, $color2) {
+  background: -webkit-linear-gradient(180deg, $color1 , $color2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(180deg, $color1, $color2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(180deg, $color1, $color2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(180deg, $color1 , $color2); /* Standard syntax */
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#{$color1}, endColorstr='#{$color2}');/*For IE7-8-9*/
+  background-attachment: fixed;
+}
+
+@mixin bevel-corners($background-color, $size) {
+  background: $background-color;
+  background:
+  linear-gradient(135deg, transparent $size, $background-color 0) top left,
+  linear-gradient(225deg, transparent $size, $background-color 0) top right,
+  linear-gradient(315deg, transparent $size, $background-color 0) bottom right,
+  linear-gradient(45deg,  transparent $size, $background-color 0) bottom left;
+  background-size: 51% 52%;
+  background-repeat: no-repeat;
+}
+
+@mixin roundcorners($radius) {
+  -moz-border-radius: $radius;    // firefox
+  -webkit-border-radius: $radius; // safari/chrome
+  border-radius: $radius;         // CSS3, works in IE9
+}
+
+// Grid CSS rules
+@mixin rule--col($mediaQuery) {
+  @if $mediaQuery == medium {
+    float: left;
+    margin-right: $mediumGutterWidth;
+    padding: $mediumGutterWidth;
+  }
+
+  @if $mediaQuery == wide {
+    float: left;
+    margin-right: $wideGutterWidth;
+    padding: $wideGutterWidth;
+  }
+}

@@ -1,0 +1,25 @@
+.header {
+  height: 80px;
+  background: $Green;
+  position: relative;
+
+  h1 {
+    color: $White;
+    padding-top: 15px;
+
+    @include media-query(tablet-portrait-and-smaller) {
+      padding-left: 5%;
+
+      .hide-part-title {
+        display: none;
+      }
+    }
+
+    a {
+      color: $White;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

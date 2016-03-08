@@ -1,0 +1,24 @@
+.footer {
+  background: $Black;
+  color: $White;
+
+  ul {
+    margin-left:0;
+    padding-left: 0;
+    margin-right:0;
+    padding-right: 0;
+    margin-bottom:0;
+    padding-bottom: 0;
+    list-style: none;
+  }
+
+  a {
+    color: $White;
+  }
+
+  li.current-menu-item a {
+    color: $Green;
+  }
+
+}
+

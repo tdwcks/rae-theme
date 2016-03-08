@@ -1,0 +1,36 @@
+@import "compass/css3";
+ 
+@include font-face("dinbold", font-files("din-bold-webfont.eot", "din-bold-webfont.eot?#iefix", "din-bold-webfont.woff2", "din-bold-webfont.woff", "din-bold-webfont.ttf", "din-bold-webfont.svg#dinbold"));
+@include font-face("dinregular", font-files("din-regular-webfont.eot", "din-regular-webfont.eot?#iefix", "din-regular-webfont.woff2", "din-regular-webfont.woff", "din-regular-webfont.ttf", "din-regular-webfont.svg#dinregular"));
+
+
+html, 
+body {
+  color: $Black;
+  font-size: $fontBase;
+  font-family: 'dinregular', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: 'dinbold', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: $h1;
+  margin:0 0 50px 0;
+}
+
+h2 {
+  font-size: $h2;
+  margin:25px 0;
+}
+
+h3 {
+  font-size: $h3;
+  font-family: 'dinregular', sans-serif;
+  font-weight: normal;
+}

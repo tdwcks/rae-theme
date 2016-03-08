@@ -1,0 +1,63 @@
+#press-main {
+
+  .g--third {
+    @include media-query(tablet-portrait-and-smaller) {
+      padding-left: 5%;
+      padding-right: 5%;
+      width: 90%;
+    }
+    padding-left: 0;
+    width: 350px;
+
+    @include media-query(tablet-landscape) {
+      width: 210px;
+    }
+
+    @include media-query(medium) {
+      width: 280px;
+    }
+  }
+
+  .g--two--third {
+    @include media-query(tablet-portrait-and-smaller) {
+      padding-left: 5%;
+      padding-right: 5%;
+      width: 90%;
+    }
+    padding-right: 0;
+    width: 740px;
+    @include media-query(tablet-landscape) {
+      width: 460px;
+    }
+
+    @include media-query(medium) {
+      width: 600px;
+    }
+  }
+
+  .press-post-container {
+    h3 a span img {
+      width: auto;
+      height: 15px;
+      margin: -2px 0 0 20px;
+      display: inline;
+    }
+  }
+
+  .enquiries {
+    margin:0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      width: 40%;
+      display: inline-block;
+      margin-right: 5%;
+
+      @include media-query(tablet-portrait-and-smaller) {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}

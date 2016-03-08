@@ -1,0 +1,26 @@
+#blog-full-article-main {
+
+  .social-btns {
+    text-align: left;
+    li {
+      display: inline-block;
+      margin: 0 30px 0 0;
+    }
+  }
+  @include media-query(medium) {
+    .g--third {
+      width: 240px;
+    }
+  }
+
+  @include media-query(tablet-landscape) {
+    .g--third {
+      width: 150px;
+    }
+  }
+  .blog-post-social {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+  }
+}

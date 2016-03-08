@@ -1,0 +1,83 @@
+label, .indicates-required {
+  font-size: $fontSmall;
+  text-transform: uppercase;
+  color: $BlackerBlack;
+}
+
+.indicates-required {
+  text-align: right;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="email"] {
+  box-sizing: border-box;
+  padding: 20px 10px;
+  width: 98%;
+  height: 1.5em;
+  border: none;
+  background: $Grey;
+  border: solid 2px $Grey;
+
+  &:focus {
+    border: solid 2px $Grey;
+    background: $LightGrey;
+    color: $Black;
+    outline: none;
+  }
+}
+
+.filledin {
+  background-color: $LightGrey !important;
+  color: $Black;
+  border-color: $Green !important;
+}
+
+input[type="email"] {
+  &:invalid {
+    background-color: $LightGrey;
+    color: $Black;
+    border-color: $Red;
+  }
+    
+  &:valid {
+    background-color: $LightGrey;
+    color: $Black;
+    border-color: $Green;
+  }
+}
+
+textarea {
+  width: 98%;
+  border: none;
+  background: $Grey;
+  border: solid 2px $Grey;
+
+  @include roundcorners(4px);
+
+  &:focus {
+    border: solid 2px $Grey;
+    background: $LightGrey;
+    color: $Black;
+  }
+}
+
+.frm_submit input{
+  border: none;
+  color: white;
+  width: 100px;
+  margin-top: 25px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+#press-main .filledin {
+  background-color: $White !important;
+}

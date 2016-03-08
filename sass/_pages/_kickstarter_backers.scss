@@ -1,0 +1,66 @@
+#kickstarter-backers-main {
+
+  .sponsor {
+    padding: 0;
+    width: 370px;
+    float: none;
+    margin: 0 auto;
+
+    @include media-query(small) {
+      width: 90%;
+      padding: 0px 5%;
+
+      .post-container {
+        width: 70%;
+        margin: auto;
+      }
+    }
+
+    @include media-query(tablet-portrait) {
+      float: none;
+      margin: 0 auto 15px auto;
+    }
+
+    @include media-query(tablet-landscape) {
+      width: 230px;
+    }
+
+    @include media-query(medium) {
+      width: 300px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-bottom: 6px solid $GreenSelected;
+
+    }
+
+  }
+
+  @include media-query(tablet-portrait-and-smaller) {
+    div.green-divider {
+      border-top: none;
+      margin: 0 5%;
+      padding: 0;
+      width: 90%;
+      text-align: center;
+    }
+
+    #mobile-green-divider {
+      border-top: #49e8a4 solid 4px;
+      margin-top: 45px;
+      padding-top: 45px;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      margin-bottom: 10px;
+    }
+  }
+
+}

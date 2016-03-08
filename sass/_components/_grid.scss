@@ -1,0 +1,74 @@
+/**
+*
+* Grid
+*
+**/
+
+.g-wide--full {
+  @include rule--col(wide);
+  margin-right: 0;
+  width: 100%;
+}
+
+.g--third {
+  @include rule--col(wide);
+  width: 330px;
+}
+
+.g--half {
+  @include rule--col(wide);
+  width: 525px;
+}
+
+.g--two--third {
+  @include rule--col(wide);
+  width: 720px;
+}
+
+@include media-query(tablet-portrait-and-smaller) {
+  .g--third {
+    width: 90%;
+    padding: 20px 5%;
+  }
+
+  .g--two--third {
+    width: 90%;
+    padding: 20px 5%;
+  }
+}
+
+@include media-query(tablet-landscape) {
+  .g--third {
+    width: 190px;
+  }
+
+  .g--two--third {
+    width: 480px;
+  }
+}
+
+@include media-query(medium) {
+  .g--third {
+    width: 260px;
+  }
+
+  .g--two--third {
+    width: 600px;
+  }
+}
+
+// This is a global 'last' class
+// to be used with global grid classes, such as 'half' or 'third'
+// Example usage:
+//  <div class="third"></div>
+//  <div class="third"></div>
+//  <div class="third last"></div>
+.g--last { margin-right: 0; }
+
+
+// This is a global 'centered' class
+.g--centered {
+  float: none; // reset float to none so we can center it
+  margin-left: auto;
+  margin-right: auto;
+}
