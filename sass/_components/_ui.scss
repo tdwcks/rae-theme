@@ -49,7 +49,7 @@ body {
 }
 
 .main {
-  background: $LightGrey;
+  background: #fff;
   margin-top: 79px;
 
   @include media-query(tablet-portrait-and-smaller) {

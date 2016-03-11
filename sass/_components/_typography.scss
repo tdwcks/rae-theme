@@ -13,7 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'dinbold', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -33,4 +33,14 @@ h3 {
   font-size: $h3;
   font-family: 'dinregular', sans-serif;
   font-weight: normal;
+}
+
+b {
+  font-family: 'dinbold', sans-serif;
+  font-weight: 300;
+}
+
+strong {
+  font-family: 'dinbold', sans-serif;
+  font-weight: 300;
 }

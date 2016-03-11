@@ -44,7 +44,6 @@
 
 #front-page {
   margin-top: 0;
-
   @include media-query(tablet-landscape) {
   }
 }
@@ -564,7 +563,7 @@
       background-position: 10px 16px;
       cursor: pointer;
       font-size: $fontBase;
-      font-weight: bold;
+      font-weight: 300;
       margin:0;
     }
     p {

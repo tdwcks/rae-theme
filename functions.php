@@ -31,6 +31,7 @@ add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 	function register_my_menu() {
 		register_nav_menu('header-menu',__( 'Header Menu' ));
     register_nav_menu('footer-menu',__( 'Footer Menu' ));
+    register_nav_menu('legal-menu',__( 'Legal Menu' ));
 	}
 	add_action( 'init', 'register_my_menu' );
 
@@ -40,6 +41,7 @@ add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
     return $qv;
   }
   add_filter('request', 'myfeed_request');
- 
+
+  show_admin_bar(false);
 
 ?>
