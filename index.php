@@ -412,7 +412,7 @@
       <script>
     L.mapbox.accessToken = 'pk.eyJ1IjoicnVuYW5lbXBpcmUiLCJhIjoiQURYc3gyVSJ9.e1_Z7yOMvCAnPNm7SkBWKQ';
     var map = L.mapbox.map('map', 'runanempire.jepgcln5')
-        .setView([51.51, -0.12], 16);
+        .setView([51.51, -0.12], 17);
 
         // Disable drag and zoom handlers.
         map.dragging.disable();
