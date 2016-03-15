@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/h5bp.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/animate.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
+    <script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
     <!--[if lt IE 10]>
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/iefixes.css" />
     <![endif]-->

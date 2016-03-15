@@ -10,22 +10,23 @@
   </div>
 </div> -->
         <div class="container">
-          <div class="g--half">
-            <div class="iphone-bg">
-                <img src="">
-            </div>
-          </div>
-          <div class="g--half g--last">
-            <div class="logo">
-              <img src="http://runanempire.com/wp-content/themes/rae-theme/images/svg/logo-run-an-empire-white.svg" alt="Run an Empire logo">
-            </div>
+          <div class="g--third">
+            <!-- <div class="logo">
+             <img src="http://runanempire.com/wp-content/themes/rae-theme/images/svg/logo-run-an-empire-white.svg" alt="Run an Empire logo">
+            </div> -->
             <h1>A real world <br/> strategy running game</h1>
-            <p class="explanation">Race against others to control <br /> the most territory in your local environment</p>
+            <p class="explanation">Race against others to control the most territory in your local environment</p>
             <div class="buttons-holder">
               <a href="www.google.com" class="link-app-store"></a>
               <a class="link-twitter"></a>
               <a class="link-facebook"></a>
             <!-- <div class="centered mobilehide"><a class="button-link button-green" href="#newsletter">Keep me updated</a></div> -->
+            </div>
+          </div>
+          <div class="g--third g--last">
+            <div class="iphone-bg">
+                <img src="">
+            </div>
           </div>
           <div class="clearfix"></div>
         </div>
@@ -70,6 +71,8 @@
         </div>
       </section>
       <section id="demos" class="mobile">
+        <div id="map"></div>
+        <div class="hex-map"></div>
         <div class="mobile-slider">
           <section id="demo1" class="demo slide-large">
             <div class="phone-screenshots" id="screenshot-1">
@@ -405,5 +408,21 @@
           <div class="clearfix"></div>
         </div>
       </section>
+
+      <script>
+    L.mapbox.accessToken = 'pk.eyJ1IjoicnVuYW5lbXBpcmUiLCJhIjoiQURYc3gyVSJ9.e1_Z7yOMvCAnPNm7SkBWKQ';
+    var map = L.mapbox.map('map', 'runanempire.jepgcln5')
+        .setView([51.51, -0.12], 16);
+
+        // Disable drag and zoom handlers.
+        map.dragging.disable();
+        map.touchZoom.disable();
+        map.doubleClickZoom.disable();
+        map.scrollWheelZoom.disable();
+        map.keyboard.disable();
+
+        // Disable tap handler, if present.
+        if (map.tap) map.tap.disable();
+    </script>
 
 <?php get_footer(); ?>

@@ -153,5 +153,7 @@ jQuery(document).ready(function() {
       $(this).toggleClass('active');
     });
 
+    // Remove map then add it whenrelev
+
 
 });
