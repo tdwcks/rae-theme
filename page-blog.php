@@ -27,7 +27,7 @@
                   $the_query->the_post();
                   $count++;
               ?>
-                <div class="g--third <?php if( $count == 3 || $count == 6 || $count == 9 || $count == 12 || $count == 15 || $count == 18 || $count == 21 || $count == 24 || $count == 27 || $count == 30 || $count == 33 || $count == 36 || $count == 39) {echo 'g--last';}?>">
+                <div class="g--third <?php if( $count == 3 || $count == 6 || $count == 9 || $count == 12 || $count == 15 || $count == 18 || $count == 21 || $count == 24 || $count == 27 || $count == 30 || $count == 33 || $count == 36 || $count == 39 || $count == 39 || $count == 42 || $count == 45 || $count == 48 || $count == 51 || $count == 54 || $count == 57 || $count == 60 || $count == 63 || $count == 66 || $count == 69 || $count == 72 || $count == 75 || $count == 78 || $count == 81 || $count == 84 || $count == 87 || $count == 90 || $count == 93 || $count == 96 || $count == 99) {echo 'g--last';}?>">
                   <div class="post-container">
                     <a href="<?php the_permalink(); ?>">
                       <?php 
