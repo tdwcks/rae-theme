@@ -1,9 +1,9 @@
   <nav role="nav" class="nav">
     <div class="container">
       <a id="logo" href="<?php echo Site_url(); ?>/" class="nav-logo-link">RUN AN EMPIRE</a>
-      <?php echo do_shortcode('[CBC show="y" country="us" html="a"]NZ[/CBC]'); ?>
-            <span class="menu-btn"><img src="http://devhok.nl/rae/icon-hamburger-menu.svg"></span>
-      <!-- Localised Selector Hidden
+      <span class="menu-btn"><img src="http://devhok.nl/rae/icon-hamburger-menu.svg"></span>
+      <!--  echo do_shortcode('[CBC show="y" country="us" html="a"]NZ[/CBC]'); 
+       Localised Selector Hidden
       <div class="local-selector">
 			
 				switch ($lang_ident) {

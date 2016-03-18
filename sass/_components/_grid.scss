@@ -15,6 +15,11 @@
   width: 330px;
 }
 
+.g--fifth {
+  @include rule--col(wide);
+  width: 174px;
+}
+
 .g--half {
   @include rule--col(wide);
   width: 525px;

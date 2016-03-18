@@ -153,7 +153,7 @@ jQuery(document).ready(function() {
       $(this).toggleClass('active');
     });
 
-    // Remove map then add it whenrelev
+    // Remove map then add it when
 
 
 });

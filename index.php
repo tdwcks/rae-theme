@@ -25,7 +25,7 @@
           </div>
           <div class="g--third g--last">
             <div class="iphone-bg">
-                <img src="">
+                <div class="image"></div>
             </div>
           </div>
           <div class="clearfix"></div>
@@ -64,8 +64,8 @@
             </div>
           </div>
           <div class="mobile-nav">
-            <div class="mobile-nav-prev"><img src="http://runanempire.com/wp-content/themes/rae-theme/images/svg/ui-arrow-prev.svg" alt="Previous"></div>
-            <div class="mobile-nav-next"><img src="http://runanempire.com/wp-content/themes/rae-theme/images/svg/ui-arrow-next.svg" alt="Next"></div>
+            <div class="mobile-nav-prev"><img src="<?php echo get_bloginfo('template_url') ?>/images/svg/ui-arrow-prev.svg" alt="Previous"></div>
+            <div class="mobile-nav-next"><img src="<?php echo get_bloginfo('template_url') ?>/images/svg/ui-arrow-next.svg" alt="Next"></div>
           </div>
           <div class="clearfix"></div>
         </div>
@@ -131,8 +131,8 @@
           </section>
         </div>
         <div class="mobile-nav">
-          <div class="mobile-nav-prev"><img src="http://runanempire.com/wp-content/themes/rae-theme/images/svg/ui-arrow-prev-white.svg" alt="Previous"></div>
-          <div class="mobile-nav-next"><img src="http://runanempire.com/wp-content/themes/rae-theme/images/svg/ui-arrow-next-white.svg" alt="Next"></div>
+          <div class="mobile-nav-prev"><img src="<?php echo get_bloginfo('template_url') ?>/images/svg/ui-arrow-prev-white.svg" alt="Previous"></div>
+          <div class="mobile-nav-next"><img src="<?php echo get_bloginfo('template_url') ?>/images/svg/ui-arrow-next-white.svg" alt="Next"></div>
         </div>
       </section>
       <!-- <section id="build-status" class="slide-medium">
@@ -230,8 +230,8 @@
             ?>
           </div>
           <div class="mobile-nav">
-            <div class="mobile-nav-prev"><img src="http://runanempire.com/wp-content/themes/rae-theme/images/svg/ui-arrow-prev-white.svg" alt="Previous"></div>
-            <div class="mobile-nav-next"><img src="http://runanempire.com/wp-content/themes/rae-theme/images/svg/ui-arrow-next-white.svg" alt="Next"></div>
+            <div class="mobile-nav-prev"><img src="<?php echo get_bloginfo('template_url') ?>/images/svg/ui-arrow-prev-white.svg" alt="Previous"></div>
+            <div class="mobile-nav-next"><img src="<?php echo get_bloginfo('template_url') ?>/images/svg/ui-arrow-next-white.svg" alt="Next"></div>
           </div>
           <div class="clearfix"></div>
           <div class="centered push-up"><a class="button-link button-red" href="<?php echo Site_url(); ?>/blog">View the blog</a></div>
@@ -287,12 +287,12 @@
               <ul>
                 <li>
                   <a href="https://twitter.com/RunAnEmpire" id="btn-twitter">
-                    <img src="http://runanempire.com/wp-content/themes/rae-theme/images/svg/icon-twitter.svg" alt="Run An Empire Twitter">
+                    <img src="<?php echo get_bloginfo('template_url') ?>/images/svg/icon-twitter.svg" alt="Run An Empire Twitter">
                   </a>
                 </li>
                 <li>
                   <a href="https://www.facebook.com/RunAnEmpire" id="btn-facebook">
-                    <img src="http://runanempire.com/wp-content/themes/rae-theme/images/svg/icon-facebook.svg" alt="Run An Empire Facebook">
+                    <img src="<?php echo get_bloginfo('template_url') ?>/images/svg/icon-facebook.svg" alt="Run An Empire Facebook">
                   </a>
                 </li>
               </ul>
@@ -330,8 +330,8 @@
             </div>
           </div>
           <div class="mobile-nav">
-            <div class="mobile-nav-prev"><img src="http://runanempire.com/wp-content/themes/rae-theme/images/svg/ui-arrow-prev-white.svg" alt="Previous"></div>
-            <div class="mobile-nav-next"><img src="http://runanempire.com/wp-content/themes/rae-theme/images/svg/ui-arrow-next-white.svg" alt="Next"></div>
+            <div class="mobile-nav-prev"><img src="<?php echo get_bloginfo('template_url') ?>/images/svg/ui-arrow-prev-white.svg" alt="Previous"></div>
+            <div class="mobile-nav-next"><img src="<?php echo get_bloginfo('template_url') ?>/images/svg/ui-arrow-next-white.svg" alt="Next"></div>
           </div>
         </div>
       </section>
@@ -384,23 +384,37 @@
       <section id="team" class="slide-small mobile">
         <div class="container">
           <h1>Brought to you by</h1>
-          <div class="g--third">
+          <div class="g--fifth">
             <div class="post-container">
               <a href="http://panstudio.co.uk/">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo-pan.png" alt="PAN Studio"></img>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo-pan.svg" alt="PAN Studio"></img>
               </a>
             </div>
           </div>
-          <div class="g--third">
+          <div class="g--fifth">
+            <div class="post-container">
+              <a href="https://www.crowdcube.com">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo-crowd.png" alt="Crowd Cube"></img>
+              </a>
+            </div>
+          </div>
+          <div class="g--fifth">
+            <div class="post-container">
+              <a href="http://www.tseffect.com/">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo-tse.png" alt="Tom Sawyer Effect"></img>
+              </a>
+            </div>
+          </div>
+          <div class="g--fifth">
             <div class="post-container">
               <a href="https://www.geovation.org.uk/">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo-geovation.png" alt="Geovaction"></img>
               </a>
             </div>
           </div>
-          <div class="g--third g--last">
+          <div class="g--fifth g--last">
             <div class="post-container">
-              <a href="supporters">
+              <a href="https://www.kickstarter.com">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo-kickstarter.png" alt="Kickstarter"></img>
               </a>
             </div>
