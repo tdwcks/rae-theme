@@ -141,11 +141,6 @@ jQuery(document).ready(function() {
     });
 
 
-    function stickyScroll() {
-        jQuery(".blog-post-social").responsivesticky({destroy: false});
-    }
-
-
     /// Localisation Dropdown
 
     $(document).on( "click", ".local-selected", function() {

@@ -26,9 +26,6 @@
           <div class="blog-content">
             <div class="blog-post-text g--two--third">
               <?php the_content(); ?>
-              <div id="comments">
-                <?php comments_template(); ?>
-              </div>
             </div>
             <div class="blog-post-social g--third g--last">
               <h3>Share</h3>

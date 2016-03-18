@@ -1,11 +1,14 @@
 #blog-full-article-main {
 
   .social-btns {
+    padding-bottom: 20px;
     text-align: left;
+
     li {
       display: inline-block;
       margin: 0 30px 0 0;
     }
+    
   }
   @include media-query(medium) {
     .g--third {
@@ -17,10 +20,5 @@
     .g--third {
       width: 150px;
     }
-  }
-  .blog-post-social {
-    position: absolute;
-    right: 0;
-    z-index: 10;
   }
 }
