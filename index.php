@@ -17,9 +17,9 @@
             <h1>A real world <br/> strategy running game</h1>
             <p class="explanation">Race against others to control the most territory in your local environment</p>
             <div class="buttons-holder">
-              <a href="www.google.com" class="link-app-store"></a>
-              <a class="link-twitter"></a>
-              <a class="link-facebook"></a>
+              <?php echo do_shortcode('[CBC show="n" country="us"]<a class="link-app-store" href="http://www.google.com"></a>[/CBC]'); ?>
+              <a href="https://twitter.com/RunAnEmpire" class="link-twitter"></a>
+              <a href="https://www.facebook.com/RunAnEmpire/" class="link-facebook"></a>
             <!-- <div class="centered mobilehide"><a class="button-link button-green" href="#newsletter">Keep me updated</a></div> -->
             </div>
           </div>
@@ -283,20 +283,17 @@
             </div>
           </div>
           <div class="g--third g--centered">
-            <div class="social-btns">
-              <ul>
+              <ul class="social">
                 <li>
-                  <a href="https://twitter.com/RunAnEmpire" id="btn-twitter">
-                    <img src="<?php echo get_bloginfo('template_url') ?>/images/svg/icon-twitter.svg" alt="Run An Empire Twitter">
-                  </a>
+                 <a href="https://twitter.com/RunAnEmpire" class="link-twitter"></a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/RunAnEmpire" id="btn-facebook">
-                    <img src="<?php echo get_bloginfo('template_url') ?>/images/svg/icon-facebook.svg" alt="Run An Empire Facebook">
-                  </a>
+                 <a href="https://www.instagram.com/runanempire/" class="link-instagram"></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/RunAnEmpire/" class="link-facebook"></a>
                 </li>
               </ul>
-            </div>
           </div>
         </div>
       </section>

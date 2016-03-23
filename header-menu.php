@@ -17,7 +17,7 @@
 			</ul>
 		</div> <!-- language-selector -->
       <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-      <?php echo do_shortcode('[CBC show="y" country="us"]<a class="cbc-menu-link" href="http://www.google.com">Download</a>[/CBC]'); ?>
+      <?php echo do_shortcode('[CBC show="n" country="us"]<a class="cbc-menu-link" href="http://www.google.com">Download</a>[/CBC]'); ?>
       <div class="clearfix"></div>
     </div>
     <div class="clearfix"></div>

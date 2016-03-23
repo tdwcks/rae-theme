@@ -386,18 +386,6 @@
   }
 }
 
-@include media-query(huge) {
-
-  h2 {
-    font-size: $h1;
-  }
-
-  p {
-    text-transform: uppercase;
-    font-size: $h3;
-  }
-}
-
 @include media-query(tablet-portrait-and-smaller) {
 
   .demo {
@@ -527,7 +515,7 @@
       background: $White;
       border-bottom: 6px solid $LightGrey;
       min-height: 400px;
-      
+
       @include media-query(small) {
         width: 70%;
       }
@@ -541,7 +529,6 @@
     }
   }
 }
-
 
 #newsletter {
   background: linear-gradient(180deg, $Blue, $Pink) fixed;
@@ -565,6 +552,7 @@
       padding-left: 25px;
       padding-right: 25px;
       border-bottom: 6px solid $Grey;
+
       @include media-query(small) {
         padding-left: 5%;
         padding-right: 5%;
@@ -584,6 +572,19 @@
       @include media-query(tablet-landscape) {
         width: 480px;
       }
+    }
+  }
+
+  .social {
+    width: intrinsic;
+    height: 50px;
+    display: block;
+    margin: 10px auto;
+    padding: 0;
+
+    li {
+      float: left;
+      list-style-type: none;
     }
   }
 

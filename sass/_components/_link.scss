@@ -98,7 +98,7 @@ h3 a {
     cursor: pointer;
 }
 
-.link-twitter, .link-facebook {
+.link-twitter, .link-facebook, .link-instagram {
   display: block;
   height: 45px;
   width: 45px;
@@ -115,4 +115,9 @@ h3 a {
   margin-left: 10px;
 }
 
+.link-instagram {
+  background: url('images/svg/instagram-icon.svg') no-repeat top center;
+  background-size: 100% 100%;
+  margin-left: 10px;
+}
 

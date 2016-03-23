@@ -100,8 +100,6 @@ jQuery(document).ready(function() {
             if(!imagesLoaded) {
                 window.addEventListener('load', function () {
 
-                    stickyScroll();
-
                 }, false);
 
                 imagesLoaded = true;
