@@ -1414,18 +1414,22 @@ a.cbc-menu-link {
       /* line 151, sass/_pages/_index.scss */
       #introduction .g--third {
         width: 36%; } }
-  /* line 156, sass/_pages/_index.scss */
+  @media only screen and (min-width: 1500px) {
+    /* line 157, sass/_pages/_index.scss */
+    #introduction .g--third {
+      margin: 120px 0; } }
+  /* line 162, sass/_pages/_index.scss */
   #introduction .g--last {
     float: right; }
-  /* line 160, sass/_pages/_index.scss */
+  /* line 166, sass/_pages/_index.scss */
   #introduction .buttons-holder {
     height: 50px;
     width: intrinsic;
     padding: 0; }
-    /* line 165, sass/_pages/_index.scss */
+    /* line 171, sass/_pages/_index.scss */
     #introduction .buttons-holder .link-app-store {
       margin-right: 20px; }
-  /* line 170, sass/_pages/_index.scss */
+  /* line 176, sass/_pages/_index.scss */
   #introduction .iphone-bg {
     display: block;
     margin: 0 auto;
@@ -1435,7 +1439,7 @@ a.cbc-menu-link {
     height: 550px;
     position: relative;
     margin-top: 10px; }
-    /* line 180, sass/_pages/_index.scss */
+    /* line 186, sass/_pages/_index.scss */
     #introduction .iphone-bg .image {
       display: block;
       position: absolute;
@@ -1446,10 +1450,10 @@ a.cbc-menu-link {
       background-size: 100% 100%;
       background-position: 0 0;
       left: 18px; }
-  /* line 193, sass/_pages/_index.scss */
+  /* line 199, sass/_pages/_index.scss */
   #introduction .container {
     padding: 85px 0 50px 0; }
-  /* line 197, sass/_pages/_index.scss */
+  /* line 203, sass/_pages/_index.scss */
   #introduction .logo {
     width: 150px;
     height: 150px;
@@ -1457,53 +1461,53 @@ a.cbc-menu-link {
     display: block;
     margin: 0 auto; }
     @media only screen and (max-width: 768px) {
-      /* line 197, sass/_pages/_index.scss */
+      /* line 203, sass/_pages/_index.scss */
       #introduction .logo {
         width: 40%; } }
-    /* line 207, sass/_pages/_index.scss */
+    /* line 213, sass/_pages/_index.scss */
     #introduction .logo img {
       width: 100%; }
-  /* line 212, sass/_pages/_index.scss */
+  /* line 218, sass/_pages/_index.scss */
   #introduction h1 {
     margin-top: 80px;
     line-height: 1.1em;
     text-align: left; }
-  /* line 218, sass/_pages/_index.scss */
+  /* line 224, sass/_pages/_index.scss */
   #introduction p.explanation {
     text-transform: uppercase;
     margin: 0 0 50px 0;
     text-align: left;
     font-size: 1.5em;
     line-height: 1.2em; }
-  /* line 226, sass/_pages/_index.scss */
+  /* line 232, sass/_pages/_index.scss */
   #introduction .g--two--third {
     box-sizing: border-box; }
-  /* line 230, sass/_pages/_index.scss */
+  /* line 236, sass/_pages/_index.scss */
   #introduction .release {
     color: #4d4d4d;
     font-style: 0.813em;
     margin: 50px 0 0 0; }
 
-/* line 237, sass/_pages/_index.scss */
+/* line 243, sass/_pages/_index.scss */
 #game-features {
   background-color: #fff;
   color: #4d4d4d; }
-  /* line 241, sass/_pages/_index.scss */
+  /* line 247, sass/_pages/_index.scss */
   #game-features .feature {
     text-align: center; }
-    /* line 244, sass/_pages/_index.scss */
+    /* line 250, sass/_pages/_index.scss */
     #game-features .feature .hexagon img {
       padding-top: 35px;
       width: auto;
       height: 100px; }
-    /* line 250, sass/_pages/_index.scss */
+    /* line 256, sass/_pages/_index.scss */
     #game-features .feature p {
       text-transform: uppercase; }
 
-/* line 256, sass/_pages/_index.scss */
+/* line 262, sass/_pages/_index.scss */
 #demos {
   position: relative; }
-  /* line 259, sass/_pages/_index.scss */
+  /* line 265, sass/_pages/_index.scss */
   #demos #map {
     width: 100%;
     height: 100%;
@@ -1511,7 +1515,7 @@ a.cbc-menu-link {
     z-index: -10;
     top: 0;
     left: 0; }
-  /* line 268, sass/_pages/_index.scss */
+  /* line 274, sass/_pages/_index.scss */
   #demos .hex-map {
     width: 100%;
     height: 100%;
@@ -1523,61 +1527,57 @@ a.cbc-menu-link {
     background-size: 100% auto;
     background-position: 0 0; }
     @media only screen and (max-width: 768px) {
-      /* line 268, sass/_pages/_index.scss */
+      /* line 274, sass/_pages/_index.scss */
       #demos .hex-map {
         background: #ff6969; } }
 
-/* line 285, sass/_pages/_index.scss */
+/* line 291, sass/_pages/_index.scss */
 .demo {
   position: relative;
   text-align: center;
   width: 100%; }
-  /* line 290, sass/_pages/_index.scss */
+  /* line 296, sass/_pages/_index.scss */
   .demo .demo-text-left {
     min-height: 210px;
     margin-top: 275px; }
     @media only screen and (max-width: 768px) {
-      /* line 290, sass/_pages/_index.scss */
+      /* line 296, sass/_pages/_index.scss */
       .demo .demo-text-left {
         margin-right: 0;
         min-height: inherit; } }
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
-      /* line 290, sass/_pages/_index.scss */
+      /* line 296, sass/_pages/_index.scss */
       .demo .demo-text-left {
         margin-top: 150px; } }
     @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-      /* line 290, sass/_pages/_index.scss */
+      /* line 296, sass/_pages/_index.scss */
       .demo .demo-text-left {
         margin-top: 200px; } }
-  /* line 308, sass/_pages/_index.scss */
+  /* line 313, sass/_pages/_index.scss */
   .demo .demo-text-right {
     min-height: 210px;
     margin-top: 275px; }
     @media only screen and (max-width: 768px) {
-      /* line 308, sass/_pages/_index.scss */
+      /* line 313, sass/_pages/_index.scss */
       .demo .demo-text-right {
         min-height: inherit; } }
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
-      /* line 308, sass/_pages/_index.scss */
+      /* line 313, sass/_pages/_index.scss */
       .demo .demo-text-right {
         margin-top: 150px; } }
     @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-      /* line 308, sass/_pages/_index.scss */
+      /* line 313, sass/_pages/_index.scss */
       .demo .demo-text-right {
         margin-top: 200px; } }
-  @media only screen and (min-width: 1200px) {
-    /* line 325, sass/_pages/_index.scss */
-    .demo h2 {
-      font-size: 2.25em; }
-    /* line 329, sass/_pages/_index.scss */
-    .demo p {
-      text-transform: uppercase;
-      font-size: 1.125em; } }
+    @media only screen and (min-width: 1500px) {
+      /* line 313, sass/_pages/_index.scss */
+      .demo .demo-text-right {
+        margin-top: 240px; } }
 
-/* line 337, sass/_pages/_index.scss */
+/* line 335, sass/_pages/_index.scss */
 #demo1 {
   color: white; }
-  /* line 340, sass/_pages/_index.scss */
+  /* line 338, sass/_pages/_index.scss */
   #demo1 #screenshot-1 {
     position: relative;
     background-image: url("images/demo/iphone-800.png"), url("images/demo/screen-2.png");
@@ -1590,29 +1590,33 @@ a.cbc-menu-link {
     background-size: 260px 550px, 224px 410px;
     background-position: center 120px , center 192px; }
     @media only screen and (max-width: 768px) {
-      /* line 340, sass/_pages/_index.scss */
+      /* line 338, sass/_pages/_index.scss */
       #demo1 #screenshot-1 {
         background-image: url("images/demo/iphone-800.png"), url("images/demo/screen-2-mobile.png");
         background-position: center center, center center;
         background-attachment: scroll; } }
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
-      /* line 340, sass/_pages/_index.scss */
+      /* line 338, sass/_pages/_index.scss */
       #demo1 #screenshot-1 {
         background-image: url("images/demo/iphone-800.png"), url("images/demo/screen-2-mobile.png");
         background-attachment: scroll; } }
     @media only screen and (max-width: 619px) {
-      /* line 340, sass/_pages/_index.scss */
+      /* line 338, sass/_pages/_index.scss */
       #demo1 #screenshot-1 {
         background-position: center 120px , center 192px; } }
+    @media only screen and (min-width: 1500px) {
+      /* line 338, sass/_pages/_index.scss */
+      #demo1 #screenshot-1 {
+        background-position: center 320px , center 392px; } }
 
-/* line 352, sass/_pages/_index.scss */
+/* line 353, sass/_pages/_index.scss */
 #demo2 {
   color: #fff; }
   @media only screen and (max-width: 768px) {
-    /* line 352, sass/_pages/_index.scss */
+    /* line 353, sass/_pages/_index.scss */
     #demo2 {
       color: white; } }
-  /* line 359, sass/_pages/_index.scss */
+  /* line 360, sass/_pages/_index.scss */
   #demo2 #screenshot-2 {
     background-image: url("images/demo/iphone-800.png"), url("images/demo/screen-3.png");
     background-repeat: no-repeat;
@@ -1624,25 +1628,29 @@ a.cbc-menu-link {
     background-size: 260px 550px, 224px 410px;
     background-position: center 120px , center 192px; }
     @media only screen and (max-width: 768px) {
-      /* line 359, sass/_pages/_index.scss */
+      /* line 360, sass/_pages/_index.scss */
       #demo2 #screenshot-2 {
         background-image: url("images/demo/iphone-800.png"), url("images/demo/screen-3.png");
         background-position: center center, center center;
         background-attachment: scroll; } }
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
-      /* line 359, sass/_pages/_index.scss */
+      /* line 360, sass/_pages/_index.scss */
       #demo2 #screenshot-2 {
         background-image: url("images/demo/iphone-800.png"), url("images/demo/screen-3.png");
         background-attachment: scroll; } }
     @media only screen and (max-width: 619px) {
-      /* line 359, sass/_pages/_index.scss */
+      /* line 360, sass/_pages/_index.scss */
       #demo2 #screenshot-2 {
         background-position: center 120px , center 192px; } }
+    @media only screen and (min-width: 1500px) {
+      /* line 360, sass/_pages/_index.scss */
+      #demo2 #screenshot-2 {
+        background-position: center 320px , center 392px; } }
 
-/* line 369, sass/_pages/_index.scss */
+/* line 373, sass/_pages/_index.scss */
 #demo3 {
   color: white; }
-  /* line 372, sass/_pages/_index.scss */
+  /* line 376, sass/_pages/_index.scss */
   #demo3 #screenshot-3 {
     background-image: url("images/demo/iphone-800.png"), url("images/demo/screen-4.png");
     background-repeat: no-repeat;
@@ -1654,162 +1662,175 @@ a.cbc-menu-link {
     background-size: 260px 550px, 224px 410px;
     background-position: center 120px , center 192px; }
     @media only screen and (max-width: 768px) {
-      /* line 372, sass/_pages/_index.scss */
+      /* line 376, sass/_pages/_index.scss */
       #demo3 #screenshot-3 {
         background-image: url("images/demo/iphone-800.png"), url("images/demo/screen-4.png");
         background-position: center center, center center;
         background-attachment: scroll; } }
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
-      /* line 372, sass/_pages/_index.scss */
+      /* line 376, sass/_pages/_index.scss */
       #demo3 #screenshot-3 {
         background-image: url("images/demo/iphone-800.png"), url("images/demo/screen-4.png");
         background-attachment: scroll; } }
     @media only screen and (max-width: 619px) {
-      /* line 372, sass/_pages/_index.scss */
+      /* line 376, sass/_pages/_index.scss */
       #demo3 #screenshot-3 {
         background-position: center 120px , center 192px; } }
+    @media only screen and (min-width: 1500px) {
+      /* line 376, sass/_pages/_index.scss */
+      #demo3 #screenshot-3 {
+        background-position: center 320px , center 392px; } }
 
+@media only screen and (min-width: 1200px) {
+  /* line 391, sass/_pages/_index.scss */
+  h2 {
+    font-size: 2.25em; }
+
+  /* line 395, sass/_pages/_index.scss */
+  p {
+    text-transform: uppercase;
+    font-size: 1.125em; } }
 @media only screen and (max-width: 768px) {
-  /* line 385, sass/_pages/_index.scss */
+  /* line 404, sass/_pages/_index.scss */
   .demo h2, .demo p {
     opacity: 0; } }
-/* line 392, sass/_pages/_index.scss */
+/* line 411, sass/_pages/_index.scss */
 #build-status {
   background: linear-gradient(180deg, #25afa5, #ff64a9) fixed;
   text-align: center;
   color: white; }
   @media only screen and (max-width: 768px) {
-    /* line 392, sass/_pages/_index.scss */
+    /* line 411, sass/_pages/_index.scss */
     #build-status {
       background-attachment: scroll; } }
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* line 392, sass/_pages/_index.scss */
+    /* line 411, sass/_pages/_index.scss */
     #build-status {
       background-attachment: scroll; } }
-  /* line 406, sass/_pages/_index.scss */
+  /* line 425, sass/_pages/_index.scss */
   #build-status p {
     margin: 0; }
-  /* line 410, sass/_pages/_index.scss */
+  /* line 429, sass/_pages/_index.scss */
   #build-status .publiclaunch {
     margin-top: 15px; }
-  /* line 414, sass/_pages/_index.scss */
+  /* line 433, sass/_pages/_index.scss */
   #build-status ul {
     margin: 0 0 50px 0;
     padding: 0;
     list-style: none; }
-    /* line 419, sass/_pages/_index.scss */
+    /* line 438, sass/_pages/_index.scss */
     #build-status ul li {
       display: inline-block;
       width: 100px;
       margin: 0 20px; }
       @media only screen and (max-width: 619px) {
-        /* line 419, sass/_pages/_index.scss */
+        /* line 438, sass/_pages/_index.scss */
         #build-status ul li {
           display: block;
           margin: 0 auto 40px auto; } }
       @media only screen and (min-width: 621px) and (max-width: 768px) {
-        /* line 419, sass/_pages/_index.scss */
+        /* line 438, sass/_pages/_index.scss */
         #build-status ul li {
           margin: 0 10px; } }
       @media only screen and (min-width: 769px) and (max-width: 1024px) {
-        /* line 419, sass/_pages/_index.scss */
+        /* line 438, sass/_pages/_index.scss */
         #build-status ul li {
           margin: 0 0;
           width: 90px; } }
       @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-        /* line 419, sass/_pages/_index.scss */
+        /* line 438, sass/_pages/_index.scss */
         #build-status ul li {
           margin: 0 5px; } }
-      /* line 442, sass/_pages/_index.scss */
+      /* line 461, sass/_pages/_index.scss */
       #build-status ul li .build-status-hexagon {
         width: 40px;
         height: 50px;
         margin: 15px auto 0 auto;
         background-repeat: no-repeat; }
-        /* line 447, sass/_pages/_index.scss */
+        /* line 466, sass/_pages/_index.scss */
         #build-status ul li .build-status-hexagon img {
           padding-top: 18px;
           width: auto;
           height: 10px; }
-      /* line 453, sass/_pages/_index.scss */
+      /* line 472, sass/_pages/_index.scss */
       #build-status ul li .build-status-complete {
         background-image: url("http://devhok.nl/rae/buildstatus-bg-lightgrey.svg"); }
-      /* line 456, sass/_pages/_index.scss */
+      /* line 475, sass/_pages/_index.scss */
       #build-status ul li .build-status-building {
         background-image: url("http://devhok.nl/rae/buildstatus-bg-building.svg"); }
-      /* line 459, sass/_pages/_index.scss */
+      /* line 478, sass/_pages/_index.scss */
       #build-status ul li .build-status-cross {
         background-image: url("http://devhok.nl/rae/buildstatus-bg-grey.svg"); }
 
-/* line 466, sass/_pages/_index.scss */
+/* line 485, sass/_pages/_index.scss */
 #blog {
   background-color: #e3e3e3; }
-  /* line 469, sass/_pages/_index.scss */
+  /* line 488, sass/_pages/_index.scss */
   #blog h1 {
     text-align: center;
     color: #4d4d4d; }
-  /* line 474, sass/_pages/_index.scss */
+  /* line 493, sass/_pages/_index.scss */
   #blog .full-post-link {
     color: #ff6969; }
-  /* line 478, sass/_pages/_index.scss */
+  /* line 497, sass/_pages/_index.scss */
   #blog .post-container img {
     width: 100%;
     height: auto; }
-  /* line 483, sass/_pages/_index.scss */
+  /* line 502, sass/_pages/_index.scss */
   #blog .post-text {
     padding: 0 20px 20px 20px;
     min-height: 162px; }
-  /* line 488, sass/_pages/_index.scss */
+  /* line 507, sass/_pages/_index.scss */
   #blog .g--third {
     padding: 0;
     width: 370px; }
     @media only screen and (max-width: 768px) {
-      /* line 488, sass/_pages/_index.scss */
+      /* line 507, sass/_pages/_index.scss */
       #blog .g--third {
         width: 90%;
         padding: 20px 5%; } }
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
-      /* line 488, sass/_pages/_index.scss */
+      /* line 507, sass/_pages/_index.scss */
       #blog .g--third {
         width: 230px;
         padding: 0 0; } }
     @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-      /* line 488, sass/_pages/_index.scss */
+      /* line 507, sass/_pages/_index.scss */
       #blog .g--third {
         width: 300px;
         padding: 0 0; } }
-    /* line 507, sass/_pages/_index.scss */
+    /* line 526, sass/_pages/_index.scss */
     #blog .g--third .post-container {
       background: white;
       border-bottom: 6px solid #e3e3e3;
       min-height: 400px;
       margin: auto; }
       @media only screen and (max-width: 619px) {
-        /* line 507, sass/_pages/_index.scss */
+        /* line 526, sass/_pages/_index.scss */
         #blog .g--third .post-container {
           width: 70%; } }
       @media only screen and (min-width: 621px) and (max-width: 768px) {
-        /* line 507, sass/_pages/_index.scss */
+        /* line 526, sass/_pages/_index.scss */
         #blog .g--third .post-container {
           min-height: 500px;
           width: 370px; } }
 
-/* line 525, sass/_pages/_index.scss */
+/* line 546, sass/_pages/_index.scss */
 #newsletter {
   background: linear-gradient(180deg, #25afa5, #ff64a9) fixed; }
   @media only screen and (max-width: 768px) {
-    /* line 525, sass/_pages/_index.scss */
+    /* line 546, sass/_pages/_index.scss */
     #newsletter {
       background-attachment: scroll; } }
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* line 525, sass/_pages/_index.scss */
+    /* line 546, sass/_pages/_index.scss */
     #newsletter {
       background-attachment: scroll; } }
-  /* line 536, sass/_pages/_index.scss */
+  /* line 557, sass/_pages/_index.scss */
   #newsletter h2 {
     text-align: center;
     margin-top: 0; }
-  /* line 540, sass/_pages/_index.scss */
+  /* line 561, sass/_pages/_index.scss */
   #newsletter .container .form {
     background: white;
     margin-top: 30px;
@@ -1818,112 +1839,112 @@ a.cbc-menu-link {
     padding-right: 25px;
     border-bottom: 6px solid #b0b0b0; }
     @media only screen and (max-width: 619px) {
-      /* line 540, sass/_pages/_index.scss */
+      /* line 561, sass/_pages/_index.scss */
       #newsletter .container .form {
         padding-left: 5%;
         padding-right: 5%;
         width: 80%;
         margin: 0 5%; } }
-    /* line 554, sass/_pages/_index.scss */
+    /* line 575, sass/_pages/_index.scss */
     #newsletter .container .form .centered {
       margin: 15px 0; }
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* line 559, sass/_pages/_index.scss */
+    /* line 580, sass/_pages/_index.scss */
     #newsletter .container .g--third {
       width: 480px; } }
-  /* line 569, sass/_pages/_index.scss */
+  /* line 590, sass/_pages/_index.scss */
   #newsletter .heading {
     color: #25afa5; }
-  /* line 573, sass/_pages/_index.scss */
+  /* line 594, sass/_pages/_index.scss */
   #newsletter #mc-embedded-subscribe {
     border: none;
     color: white;
     width: 100px;
     margin-top: 15px; }
-    /* line 578, sass/_pages/_index.scss */
+    /* line 599, sass/_pages/_index.scss */
     #newsletter #mc-embedded-subscribe:focus {
       outline: none; }
 
-/* line 585, sass/_pages/_index.scss */
+/* line 606, sass/_pages/_index.scss */
 #testimonies {
   background-color: #4d4d4d;
   text-align: center;
   color: white; }
-  /* line 590, sass/_pages/_index.scss */
+  /* line 611, sass/_pages/_index.scss */
   #testimonies .g--third {
     padding: 0;
     width: 370px; }
     @media only screen and (max-width: 619px) {
-      /* line 590, sass/_pages/_index.scss */
+      /* line 611, sass/_pages/_index.scss */
       #testimonies .g--third {
         width: 270px; } }
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
-      /* line 590, sass/_pages/_index.scss */
+      /* line 611, sass/_pages/_index.scss */
       #testimonies .g--third {
         width: 230px; } }
     @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-      /* line 590, sass/_pages/_index.scss */
+      /* line 611, sass/_pages/_index.scss */
       #testimonies .g--third {
         width: 300px; } }
-    /* line 606, sass/_pages/_index.scss */
+    /* line 627, sass/_pages/_index.scss */
     #testimonies .g--third .post-container {
       background: #424242;
       border-bottom: 6px solid #313131;
       margin: auto; }
       @media only screen and (max-width: 619px) {
-        /* line 606, sass/_pages/_index.scss */
+        /* line 627, sass/_pages/_index.scss */
         #testimonies .g--third .post-container {
           width: 80%; } }
-    /* line 615, sass/_pages/_index.scss */
+    /* line 636, sass/_pages/_index.scss */
     #testimonies .g--third img {
       width: 100%;
       height: auto; }
-    /* line 620, sass/_pages/_index.scss */
+    /* line 641, sass/_pages/_index.scss */
     #testimonies .g--third p {
       margin: 0;
       padding: 40px 20px 20px 20px;
       min-height: 140px; }
-  /* line 626, sass/_pages/_index.scss */
+  /* line 647, sass/_pages/_index.scss */
   #testimonies label {
     color: #25afa5; }
   @media only screen and (max-width: 619px) {
-    /* line 585, sass/_pages/_index.scss */
+    /* line 606, sass/_pages/_index.scss */
     #testimonies {
       background: #454545; } }
 
 @media only screen and (max-width: 619px) {
-  /* line 635, sass/_pages/_index.scss */
+  /* line 656, sass/_pages/_index.scss */
   .slide-medium {
     min-height: 0; } }
 
-/* line 642, sass/_pages/_index.scss */
+/* line 663, sass/_pages/_index.scss */
 #faq {
   background-color: #e3e3e3; }
-  /* line 645, sass/_pages/_index.scss */
+  /* line 666, sass/_pages/_index.scss */
   #faq h1 {
     text-align: center; }
-  /* line 649, sass/_pages/_index.scss */
+  /* line 670, sass/_pages/_index.scss */
   #faq .g--third {
     padding: 0; }
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
-      /* line 649, sass/_pages/_index.scss */
+      /* line 670, sass/_pages/_index.scss */
       #faq .g--third {
         width: 520px; } }
     @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-      /* line 649, sass/_pages/_index.scss */
+      /* line 670, sass/_pages/_index.scss */
       #faq .g--third {
         width: 640px; } }
 
-/* line 662, sass/_pages/_index.scss */
+/* line 683, sass/_pages/_index.scss */
 .dynamic-list {
   padding: 0;
   margin: 0;
   list-style: none; }
-  /* line 666, sass/_pages/_index.scss */
+  /* line 687, sass/_pages/_index.scss */
   .dynamic-list li {
     background-color: white;
     margin-bottom: 10px; }
-    /* line 669, sass/_pages/_index.scss */
+    /* line 690, sass/_pages/_index.scss */
     .dynamic-list li h4 {
       padding: 10px 10px 10px 25px;
       background-color: #49e8a4;
@@ -1935,61 +1956,61 @@ a.cbc-menu-link {
       font-size: 1em;
       font-weight: 300;
       margin: 0; }
-    /* line 681, sass/_pages/_index.scss */
+    /* line 702, sass/_pages/_index.scss */
     .dynamic-list li p {
       display: none;
       padding: 0 20px 20px 20px; }
-  /* line 687, sass/_pages/_index.scss */
+  /* line 708, sass/_pages/_index.scss */
   .dynamic-list li.active h4 {
     background-image: url("http://devhok.nl/rae/btn-collapse.svg"); }
 
-/* line 693, sass/_pages/_index.scss */
+/* line 714, sass/_pages/_index.scss */
 #team {
   background: #fff;
   text-align: center; }
-  /* line 697, sass/_pages/_index.scss */
+  /* line 718, sass/_pages/_index.scss */
   #team .g--third {
     padding: 0; }
     @media only screen and (max-width: 619px) {
-      /* line 697, sass/_pages/_index.scss */
+      /* line 718, sass/_pages/_index.scss */
       #team .g--third {
         width: 90%;
         padding: 0px 5%;
         margin-bottom: 15px; }
-        /* line 705, sass/_pages/_index.scss */
+        /* line 726, sass/_pages/_index.scss */
         #team .g--third .post-container {
           width: 70%;
           margin: auto; } }
     @media only screen and (min-width: 621px) and (max-width: 768px) {
-      /* line 697, sass/_pages/_index.scss */
+      /* line 718, sass/_pages/_index.scss */
       #team .g--third {
         float: none;
         margin: 0 auto 15px auto; } }
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
-      /* line 697, sass/_pages/_index.scss */
+      /* line 718, sass/_pages/_index.scss */
       #team .g--third {
         width: 230px; } }
     @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-      /* line 697, sass/_pages/_index.scss */
+      /* line 718, sass/_pages/_index.scss */
       #team .g--third {
         width: 300px; } }
   @media only screen and (max-width: 619px) {
-    /* line 724, sass/_pages/_index.scss */
+    /* line 745, sass/_pages/_index.scss */
     #team .g--fifth {
       float: none;
       margin: -15px auto -15px auto; } }
-  /* line 731, sass/_pages/_index.scss */
+  /* line 752, sass/_pages/_index.scss */
   #team img {
     width: 100%;
     height: auto; }
-  /* line 736, sass/_pages/_index.scss */
+  /* line 757, sass/_pages/_index.scss */
   #team a {
     display: block;
     margin: 0 auto;
     width: 100%;
     padding: 0; }
   @media only screen and (max-width: 619px) {
-    /* line 693, sass/_pages/_index.scss */
+    /* line 714, sass/_pages/_index.scss */
     #team {
       display: none; } }
 

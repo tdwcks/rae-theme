@@ -153,6 +153,12 @@
     }
   }
 
+  @include media-query(gigantic) {
+    .g--third {
+      margin: 120px 0;
+    }
+  }
+
   .g--last {
     float: right;
   }
@@ -304,7 +310,6 @@
       margin-top: 200px;
     }
   }
-
   .demo-text-right {
     min-height: 210px;
     margin-top: 275px;
@@ -319,19 +324,12 @@
     @include media-query(medium) {
       margin-top: 200px;
     }
-  }
 
-  @include media-query(huge) {
-    h2 {
-      font-size: $h1;
+    @include media-query(gigantic) {
+      margin-top: 240px;
     }
 
-    p {
-      text-transform: uppercase;
-      font-size: $h3;
-    }
   }
-  
 }
 
 #demo1 {
@@ -345,6 +343,9 @@
 
     @include media-query(small) {
       background-position: center 120px , center 192px;
+    }
+    @include media-query(gigantic) {
+      background-position: center 320px , center 392px;
     }
   }
 }
@@ -363,6 +364,9 @@
     @include media-query(small) {
       background-position: center 120px , center 192px;
     }
+    @include media-query(gigantic) {
+      background-position: center 320px , center 392px;
+    }
   }
 }
 
@@ -376,6 +380,21 @@
     @include media-query(small) {
       background-position: center 120px , center 192px;
     }
+    @include media-query(gigantic) {
+      background-position: center 320px , center 392px;
+    }
+  }
+}
+
+@include media-query(huge) {
+
+  h2 {
+    font-size: $h1;
+  }
+
+  p {
+    text-transform: uppercase;
+    font-size: $h3;
   }
 }
 
@@ -508,9 +527,11 @@
       background: $White;
       border-bottom: 6px solid $LightGrey;
       min-height: 400px;
+      
       @include media-query(small) {
         width: 70%;
       }
+
       @include media-query(tablet-portrait) {
         min-height: 500px;
         width: 370px;
