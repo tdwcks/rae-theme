@@ -1,4 +1,4 @@
-<?php /* Template Name: Legal Template */ ?>
+<?php /* Template Name: Press Template */ ?>
 <?php get_header(); ?>
   <body>
     <?php get_template_part('header-menu'); ?>

@@ -2,7 +2,7 @@
   <body>
     <?php get_template_part('header-menu'); ?>
 
-    <main id="press-main" class="main">
+    <main id="contact" class="main">
       <header class="header">
         <div class="container">
           <h1>Contact</h1>

@@ -17,7 +17,8 @@
             <h1>A real world <br/> strategy running game</h1>
             <p class="explanation">Race against others to control the most territory in your local environment</p>
             <div class="buttons-holder">
-              <?php echo do_shortcode('[CBC show="n" country="us"]<a class="link-app-store" href="http://www.google.com"></a>[/CBC]'); ?>
+              <a href="#newsletter" class="button-link button-red">Keep Me Updated</a>
+              <!-- echo do_shortcode('[CBC show="n" country="nz"]<a class="link-app-store" href="http://www.google.com"></a>[/CBC]'); -->
               <a href="https://twitter.com/RunAnEmpire" class="link-twitter"></a>
               <a href="https://www.facebook.com/RunAnEmpire/" class="link-facebook"></a>
             <!-- <div class="centered mobilehide"><a class="button-link button-green" href="#newsletter">Keep me updated</a></div> -->
@@ -184,7 +185,6 @@
       <section id="blog" class="slide-large mobile">
         <div class="container">
           <h1>Latest news</h1>
-          <div class="mobile-slider">
             <?php
               // The Query
               $query_args = array(
@@ -228,11 +228,6 @@
               /* Restore original Post Data */
               wp_reset_postdata();
             ?>
-          </div>
-          <div class="mobile-nav">
-            <div class="mobile-nav-prev"><img src="<?php echo get_bloginfo('template_url') ?>/images/svg/ui-arrow-prev-white.svg" alt="Previous"></div>
-            <div class="mobile-nav-next"><img src="<?php echo get_bloginfo('template_url') ?>/images/svg/ui-arrow-next-white.svg" alt="Next"></div>
-          </div>
           <div class="clearfix"></div>
           <div class="centered push-up"><a class="button-link button-red" href="<?php echo Site_url(); ?>/blog">View the blog</a></div>
         </div>

@@ -42,13 +42,14 @@ h3 a {
   font-family: 'dinbold', sans-serif;
   display: inline-block;
   color: $White;
-
+  text-decoration: none;
+  
   &:link {
-    -webkit-transition: all .1s ease;
-    -moz-transition: all .1s ease;
-    -ms-transition: all .1s ease;
-    -o-transition: all .1s ease;
-    transition: all .1s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
   }
 
   &:active {
@@ -62,11 +63,11 @@ h3 a {
 
 .button-green {
   @include bevel-corners($Green, 0px);
-  @include filter(6px, $GreenShadow);
+  @include filter(5px, $GreenShadow);
 
   &:hover {
     @include bevel-corners($GreenSelected, 0px);
-    @include filter(6px, $GreenShadowHover);
+    @include filter(5px, $GreenShadowHover);
   }
 
   &:active {
@@ -76,11 +77,11 @@ h3 a {
 
 .button-red {
   @include bevel-corners($Red, 0px);
-  @include filter(6px, $RedShadow);
+  @include filter(5px, $RedShadow);
 
   &:hover {
     @include bevel-corners($RedSelected, 0px);
-    @include filter(6px, $RedShadowHover);
+    @include filter(5px, $RedShadowHover);
   }
 
   &:active {

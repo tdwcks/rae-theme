@@ -10,10 +10,18 @@
     @include media-query(tablet-portrait-and-smaller) {
       padding-left: 5%;
 
+      h1 {
+        padding-top: 25px;
+      }
+
       .hide-part-title {
         display: none;
       }
     }
+
+    @include media-query(small) {
+        padding-top: 25px;
+      }
 
     a {
       color: $White;

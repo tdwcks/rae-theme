@@ -148,7 +148,7 @@
     .post-container {
       background: $White;
       border-bottom: 6px solid $LightGrey;
-      min-height: 400px;
+      min-height: 475px;
       margin: 12px auto;
 
       @include media-query(small) {

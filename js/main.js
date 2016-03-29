@@ -70,7 +70,7 @@ jQuery(document).ready(function() {
                     timeout: 0,
                     fx: 'scrollHorz',
                     cleartypeNoBg: true,
-                    speed: 800,
+                    speed: 300,
                     next:   jQuery(this).parent().find('.mobile-nav .mobile-nav-next'), 
                     prev:   jQuery(this).parent().find('.mobile-nav .mobile-nav-prev') 
                 });

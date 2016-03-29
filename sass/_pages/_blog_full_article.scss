@@ -19,6 +19,7 @@
   @include media-query(tablet-landscape) {
     .g--third {
       width: 150px;
+      width: 100%;
     }
   }
 }
